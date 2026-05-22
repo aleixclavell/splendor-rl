@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables & secrets
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
+
+# Training outputs (large files)
+runs/
+logs/
+tensorboard/
+ppo_splendor_tensorboard/
+dsac_outputs/
+
+# Model checkpoints
+models/
+*.zip
+*.pkl
+*.pt
+*.pth
+
+# Hyperparameter tuning artifacts
+*.db
+optuna_*/
+dsac_optuna_tmp/
+
+# Monitoring / metrics CSVs
+*.monitor.csv
+eval_monitor.monitor.csv
+
+# Notebook outputs with large data
+notebooks/logs/
+notebooks/*.db
+notebooks/*.csv
+notebooks/figures/

@@ -1,0 +1,22 @@
+# Core RL
+stable-baselines3>=2.6.0
+sb3-contrib>=2.6.0
+tianshou>=1.1.0
+gymnasium>=1.1.0
+
+# Deep learning
+torch>=2.0.0
+
+# Game engine (install from subdirectory)
+# pip install -e Splendor-AI/
+
+# Hyperparameter tuning
+optuna>=4.0.0
+
+# Analysis & visualization
+matplotlib>=3.7.0
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Carbon tracking (optional)
+codecarbon>=2.0.0
